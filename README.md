@@ -12,6 +12,8 @@ go env -w GOPRIVATE="gitlab.digitalk.com.br/digitalk/pacotes-customizados/*"
 machine gitlab.digitalk.com.br login <username> password <gitlab_access_token>
 ```
 
+- OBS : Caso não tenha um token de acesso ou não saiba como acessa-lo, esse link possui o tutorial de como criar: [Personal access tokens](https://docs.gitlab.com/ee/user/profile/personal_access_tokens.html)
+
 3. Precisamos definir permissão para esse arquivo criado com o seguinte comando: 
 ```
 chmod 600 ~/.netrc
